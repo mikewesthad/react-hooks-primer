@@ -9,3 +9,4 @@ A primer on React Hooks.
 - [ ] Add eslint-plugin-react-hooks.
 - [ ] Show what can go wrong: non-react functions, calling outside top level.
 - [ ] Written tutorial.
+- [ ] Add testing.
