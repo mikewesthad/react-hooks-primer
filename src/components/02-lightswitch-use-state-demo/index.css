@@ -1,0 +1,9 @@
+.lightswitch-container--on {
+  color: #00024a;
+  background-color: white;
+}
+
+.lightswitch-container--off {
+  color: white;
+  background-color: #00024a;
+}
