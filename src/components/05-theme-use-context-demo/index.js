@@ -1,5 +1,6 @@
 /**
- * useContext to keep track of the current theme in nested components.
+ * A demo of how to use the useContext hook to keep track of the current theme in nested components
+ * (ThemedHeader and ThemedButton).
  */
 
 import React, { useState } from "react";
