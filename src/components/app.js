@@ -2,6 +2,7 @@ import React from "react";
 import Counter from "./01-counter-use-state-demo/";
 import LightSwitch from "./02-lightswitch-use-state-demo/";
 import FocusedInput from "./03-focus-use-ref-demo";
+import AutoFocusedInput from "./04-autofocus-use-effect-demo";
 import ThemedApp from "./05-theme-use-context-demo";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Counter />
       <LightSwitch />
       <FocusedInput />
+      <AutoFocusedInput />
       <ThemedApp />
     </div>
   );
