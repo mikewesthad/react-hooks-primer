@@ -7,6 +7,7 @@ import ThemedApp from "./05-theme-use-context-demo";
 import WindowSize from "./06-window-size-use-effect-demo";
 import PokemonDemo from "./07-pokemon-api-custom-hook-demo";
 import Creatures from "./08-creatures-use-reducer-demo";
+import MeasurementBox from "./09-measurement-use-layout-effect-demo";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <WindowSize />
       <PokemonDemo />
       <Creatures />
+      <MeasurementBox />
     </div>
   );
 }
