@@ -8,6 +8,7 @@ import WindowSize from "./06-window-size-use-effect-demo";
 import PokemonDemo from "./07-pokemon-api-custom-hook-demo";
 import Creatures from "./08-creatures-use-reducer-demo";
 import MeasurementBox from "./09-measurement-use-layout-effect-demo";
+import ExampleFancyInputUsage from "./10-fancy-input-use-imperative-handle-demo";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <PokemonDemo />
       <Creatures />
       <MeasurementBox />
+      <ExampleFancyInputUsage />
     </div>
   );
 }
