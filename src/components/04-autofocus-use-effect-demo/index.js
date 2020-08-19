@@ -1,5 +1,6 @@
 /**
- * useEffect (and useRef) to autofocus a text input on mount.
+ * A demo of how to use the useEffect hook (combined with useRef) to autofocus a text input when the
+ * component is mounted.
  */
 
 import React, { useRef, useState, useEffect } from "react";
@@ -7,6 +8,7 @@ import React, { useRef, useState, useEffect } from "react";
 const AutoFocusedInput = () => {
   const textInput = useRef(null);
   const [text, setText] = useState("");
+  const onTextChange = (e) => setText(e.target.value);
 
   // This depends on textInput and will only re-run when textInput changes, which only happens on
   // mount in this example.
@@ -16,13 +18,8 @@ const AutoFocusedInput = () => {
 
   return (
     <div>
-      <h2>Auto-focused Input</h2>
-      <input
-        type="text"
-        value={text}
-        onChange={(e) => setText(e.target.value)}
-        ref={textInput}
-      />
+      <h1>Auto-focused Input</h1>
+      <input type="text" value={text} onChange={onTextChange} ref={textInput} />
     </div>
   );
 };
