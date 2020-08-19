@@ -4,6 +4,7 @@ import LightSwitch from "./02-lightswitch-use-state-demo/";
 import FocusedInput from "./03-focus-use-ref-demo";
 import AutoFocusedInput from "./04-autofocus-use-effect-demo";
 import ThemedApp from "./05-theme-use-context-demo";
+import WindowSize from "./06-window-size-use-effect-demo";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <FocusedInput />
       <AutoFocusedInput />
       <ThemedApp />
+      <WindowSize />
     </div>
   );
 }
